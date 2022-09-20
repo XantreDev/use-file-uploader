@@ -1,6 +1,6 @@
 {
   "name": "use-file-uploader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "double-ended-queue": "^2.1.0-0",
-    "use-common-hook": "^1.0.4",
+    "use-common-hook": "^1.0.5",
     "uuid": "^9.0.0"
   }
 }
