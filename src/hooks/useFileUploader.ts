@@ -6,7 +6,7 @@ import {
   ConnectToUploaderProps,
   GetData,
   HookResult,
-  UploaderProps
+  UploaderProps,
 } from "../hookTypes";
 import { createChecker, transformToLoaded } from "../internalUtils";
 import { ValueOfArray } from "../utilityTypes";
