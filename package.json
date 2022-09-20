@@ -1,0 +1,32 @@
+{
+  "name": "use-file-uploader",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "build": "rimraf dist/ && prettier --write src/**/* && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+  },
+  "keywords": [],
+  "author": "XantreGodlike",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/double-ended-queue": "^2.1.1",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@types/uuid": "^8.3.4",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "double-ended-queue": "^2.1.0-0",
+    "use-common-hook": "^1.0.4",
+    "uuid": "^9.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "dist/esm",
+    "target": "ES6",
+    "moduleResolution": "Node",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"]
+  },
+  "include": ["src"]
+}
