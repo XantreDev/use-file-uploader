@@ -1,6 +1,6 @@
 {
   "name": "use-file-uploader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -18,7 +18,7 @@
   "author": "XantreGodlike",
   "license": "ISC",
   "peerDependencies": {
-    "react": "^16.11.0"
+    "react": "^16.11.0 || ^17.0.0 || ^18.0.0"
   },
   "devDependencies": {
     "@types/double-ended-queue": "^2.1.1",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "double-ended-queue": "^2.1.0-0",
-    "use-common-hook": "^1.0.5",
+    "use-common-hook": "^1.0.6",
     "uuid": "^9.0.0"
   }
 }
